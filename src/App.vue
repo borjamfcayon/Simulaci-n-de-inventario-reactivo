@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <h1>Inventario de Productos</h1>
-    <InventoryView />
+    <div class="main-container">
+      <InventoryView />
+    </div>
   </div>
 </template>
 
@@ -18,8 +20,14 @@ export default {
 <style>
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding: 20px;
+  background-color: #d0d8e6;
   text-align: center;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
