@@ -1,6 +1,6 @@
 import graphene
 from graphene import ObjectType, Int, Float, String, Boolean, List, Field
-from models import products_db
+from db import products_db
 
 class ProductType(ObjectType):
     id = Int()
