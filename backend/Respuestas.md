@@ -6,11 +6,11 @@ GraphQL realiza consultas más específicas y eficientes, solicitando solo los d
 
 ### 2. Definición de tipos y resolvers en GraphQL
 
-Los tipos describen la estructura de los datos (por ejemplo, `ProductType` con campos como id, nombre y stock). Los resolvers son funciones que obtienen o modifican los datos según la consulta o mutación solicitada, separando claramente la lógica de acceso y la definición de datos.
+Los tipos describen la estructura de los datos (por ejemplo, ProductType con campos como id, nombre y stock). Los resolvers son funciones que obtienen o modifican los datos según la consulta o mutación solicitada, separando claramente la lógica de acceso y la definición de datos.
 
 ---
 
-### 3. Importancia de que el backend actualice `available`
+### 3. Importancia de que el backend actualice available
 
 El backend debe controlar la actualización de la disponibilidad para garantizar la consistencia, seguridad y una única fuente de verdad, evitando que clientes manipulen datos y asegurando que todos accedan a un estado coherente del inventario.
 
